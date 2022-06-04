@@ -26,6 +26,13 @@ function getMaxPassLength() {
   }
 }
 
+document.getElementById('clipboardCopy').addEventListener('click', clipboardCopy);
+async function clipboardCopy() {
+  let text = document.querySelector("#password").value;
+  await navigator.clipboard.writeText(text);
+  alert("Password Copied to Clipboard!");
+}
+
 //checks if the criteria on index.html are checked or not.
 function pCriteria() {
   if (document.getElementById("lowerCase").checked == true) {
