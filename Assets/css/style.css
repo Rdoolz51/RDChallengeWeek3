@@ -156,7 +156,7 @@ button[disabled] {
 
 @media (max-width: 400px) {
   #passwordCriteria {
-    margin-top: 175px;
+    margin-top: 225px;
   }
   .card-header h2 {
     margin-left: 50px;
@@ -165,12 +165,12 @@ button[disabled] {
 
 @media (max-height: 780px) {
   #passwordCriteria {
-    margin-top: 200px;
+    margin-top: 250px;
   }
 }
 
 @media (max-height: 575px) {
   #passwordCriteria {
-    margin-top: 250px;
+    margin-top: 275px;
   }
 }
